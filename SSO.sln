@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.0.0
+MinimumVisualStudioVersion = 17.0.0.0
+
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSO.Server", "Server\SSO.Server.csproj", "{DDDCA41B-AB21-4E34-BD34-DE7DB1E52AD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSO.Client", "Client\SSO.Client.csproj", "{4D15332E-7B14-4411-91F8-6B88AE6D7504}"
+EndProject
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+
+		{4D15332E-7B14-4411-91F8-6B88AE6D7504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D15332E-7B14-4411-91F8-6B88AE6D7504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D15332E-7B14-4411-91F8-6B88AE6D7504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D15332E-7B14-4411-91F8-6B88AE6D7504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDCA41B-AB21-4E34-BD34-DE7DB1E52AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDCA41B-AB21-4E34-BD34-DE7DB1E52AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDCA41B-AB21-4E34-BD34-DE7DB1E52AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDCA41B-AB21-4E34-BD34-DE7DB1E52AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE135D3B-0F42-49C6-8AB1-627E1FA9EECC}
+	EndGlobalSection
+EndGlobal

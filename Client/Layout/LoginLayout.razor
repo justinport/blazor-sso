@@ -1,0 +1,32 @@
+@inherits LayoutComponentBase
+
+<RadzenDialog />
+<RadzenNotification />
+<RadzenTooltip />
+<RadzenContextMenu />
+
+<RadzenLayout style="background: url('images/login.jpg'); background-size: cover;">
+    <RadzenBody>
+        <RadzenStack JustifyContent="Radzen.JustifyContent.Center" Class="rz-mx-auto rz-p-4" Style="max-width: 1440px; height: 100%;">
+            <RadzenCard class="rz-shadow-3 rz-border-radius-4" style="padding: 0; overflow: hidden; background-color: var(--rz-base-background-color);">
+                <RadzenRow Gap="0">
+                    <RadzenColumn Size="12" SizeSM="6" Class="rz-background-color-primary rz-p-12" style="background-image: radial-gradient(circle at 4rem 4rem, var(--rz-primary) 0%, var(--rz-primary-darker) 80%); position: relative; display: flex; flex-direction: column; align-items: center;">
+                        <div style="display: flex; align-items: center; color: white; margin-bottom: 15px;" class>
+                             <span style="font-size: 2.5em; line-height: 1em;">@((MarkupString)"&lt;APP/&gt;ODIA")</span>
+                        </div>
+                        <RadzenText Text="Optimized Digtial Applications" TextStyle="Radzen.Blazor.TextStyle.H3" class="rz-color-white" TextAlign="Radzen.TextAlign.Center" />
+                        <RadzenText Text="Dive into a seamless digital experience." TextStyle="Radzen.Blazor.TextStyle.Body1" class="rz-color-white" />
+                    </RadzenColumn>
+                    <RadzenColumn Size="12" SizeSM="6" class="rz-p-12">
+                        <RadzenHeading Size="H5" Text="Or log in with" Style="margin-top: 20px; margin-bottom: 10px"/>
+                        <RadzenButton Icon="apple" Text="Continue with Apple" Style="width: 100%; margin-bottom: 10px" />
+                        <RadzenButton Icon="google" Text="Continue with Google" Style="background-color: #DB4437; color: white; width: 100%; margin-bottom: 10px" />
+                        <RadzenButton Icon="facebook" Text="Continue with Facebook" Style="background-color: #3B5998; color: white; width: 100%; margin-bottom: 10px" />
+                        <RadzenButton Icon="microsoft" Text="Continue with Microsoft" Style="background-color: #2F2F2F; color: white; width: 100%; margin-bottom: 10px" />
+                    </RadzenColumn>
+                </RadzenRow>
+            </RadzenCard>
+            <RadzenText Text="SSO v1.0.0, Copyright Ⓒ 2023 Appodia" TextStyle="Radzen.Blazor.TextStyle.Caption" TextAlign="Radzen.TextAlign.Center" Style="width: 100%; margin-top: 20px" TagName="Radzen.Blazor.TagName.P"/>
+        </RadzenStack>
+    </RadzenBody>
+</RadzenLayout>

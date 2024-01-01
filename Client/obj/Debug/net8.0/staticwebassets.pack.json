@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/justinport/Documents/GitHub/blazor-sso/Client/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/justinport/Documents/GitHub/blazor-sso/Client/obj/Debug/net8.0/compressed/95von1iwvm.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.SSO.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.SSO.Client.props",
+      "PackagePath": "build\\SSO.Client.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.SSO.Client.props",
+      "PackagePath": "buildMultiTargeting\\SSO.Client.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.SSO.Client.props",
+      "PackagePath": "buildTransitive\\SSO.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
